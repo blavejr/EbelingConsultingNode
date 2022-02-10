@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0750" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2022-02-10T08:09:01" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="kanban_boards_api" timestamp="2022-02-10T08:09:01" tests="4" file="/Users/deathnote/Desktop/4bit/jobH/070f38a8-d89b-4b63-987d-11eb8dd22958/test/index.spec.js" time="0.0750" failures="4">
+    <testcase name="kanban_boards_api should create a new item in the board" time="0.0310" classname="should create a new item in the board">
+      <failure message="Cannot read property &apos;should&apos; of undefined" type="TypeError"><![CDATA[TypeError: Cannot read property 'should' of undefined
+    at Context.<anonymous> (test/index.spec.js:45:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="kanban_boards_api should update the stage for the item" time="0.0180" classname="should update the stage for the item">
+      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 404
+    at Context.<anonymous> (test/index.spec.js:53:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="kanban_boards_api should return with status 400 if the stage is not valid" time="0.0140" classname="should return with status 400 if the stage is not valid">
+      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 404
+    at Context.<anonymous> (test/index.spec.js:61:30)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="kanban_boards_api should update the stages correctly for a series of requests" time="0.0120" classname="should update the stages correctly for a series of requests">
+      <failure message="expected 404 to deeply equal 200" type="AssertionError"><![CDATA[AssertionError: expected 404 to deeply equal 200
+    at /Users/deathnote/Desktop/4bit/jobH/070f38a8-d89b-4b63-987d-11eb8dd22958/test/index.spec.js:69:44
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
